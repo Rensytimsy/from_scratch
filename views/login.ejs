@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="intro">
+        <h3>Login to your travel hotel account.</h3>
+    </div>
+    <form action="/api/home" method="post" class="register--form">
+        <input type="text" placeholder="first name" name="first_name" value="<%= element.first_name %>">
+        <input type="text" placeholder="first name" name="second_name" value="<%= element.second_name %>">
+        <!-- <input type="text" placeholder="email address"> -->
+        <input type="text" placeholder="password" name="user_password" value="<%= element.user_password %>">
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

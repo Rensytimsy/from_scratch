@@ -1,0 +1,51 @@
+.register--form{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 350px;
+    height: 50vh;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.register--form > input{
+    margin: 10px 0;
+    height: 5vh;
+    outline: none;
+}
+.register--form > input::placeholder{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+}
+.register--form > button{
+    position: relative;
+    top: 130px;
+    height: 5vh;
+    background-color: rgb(36, 209, 103);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 70%;
+    left: 15%;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.register--form > button:hover{
+    background-color: rgb(95, 228, 33);
+}
+.intro{
+    /* border: 1px solid black; */
+    position: relative;
+    width: 350px;
+    left: 38%;
+    top: 25px;
+}
+.intro > h3{
+    color: grey;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
